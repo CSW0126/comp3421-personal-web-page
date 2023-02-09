@@ -1,0 +1,83 @@
+/* Font */
+@font-face {
+    font-family: gotham-bold;
+    src: url("fonts/gotham-bold.woff2") format('woff2');
+}
+@font-face {
+    font-family: gotham-bold-italic;
+    src: url("fonts/gotham-bold-italic.woff2") format('woff2');
+}
+@font-face {
+    font-family: gotham-book-italic;
+    src: url("fonts/gotham-book-italic.woff2") format('woff2');
+}
+@font-face {
+    font-family: gotham-book;
+    src: url("fonts/gotham-book.woff2") format('woff2');
+}
+@font-face {
+    font-family: gotham-medium-italic;
+    src: url("fonts/gotham-medium-italic.woff2") format('woff2');
+}
+@font-face {
+    font-family: gotham-medium;
+    src: url("fonts/gotham-medium.woff2") format('woff2');
+}
+
+.gotham-bold {
+    font-family: 'gotham-bold' ;
+}
+
+.gotham-bold-italic {
+    font-family: 'gotham-bold-italic' ;
+}
+
+.gotham-book-italic {
+    font-family: 'gotham-book-italic' ;
+}
+
+.gotham-book {
+    font-family: 'gotham-book' ;
+}
+
+.gotham-medium {
+    font-family: 'gotham-medium' ;
+}
+
+.gotham-medium-italic {
+    font-family: 'gotham-medium-italic' ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.vh100auto {
+    height:auto;
+}
+
+.line {
+    height: 100%;
+    border-left: 2px solid rgb(107, 114, 128);
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+.three_bg {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+@media (min-width: 768px) {
+    .vh100auto {
+        height: 92.6vh;
+    }
+}
+

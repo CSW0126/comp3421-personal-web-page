@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cheung Sui Wing 21027547D Portfolio</title>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f6e4e2b9e3.js" crossorigin="anonymous"></script>
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark">
+
+    <!-- Navbar -->
+    <div class="fixed w-screen z-10">
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <a href="#" class="flex items-center">
+                    <span
+                        class="self-center text-xl font-semibold whitespace-nowrap dark:text-white gotham-bold">Donald_Cheung</span>
+                </a>
+                <!-- menu icon for phone -->
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <!-- menu item -->
+                <div class="hidden w-full md:block md:w-auto  animate__animated animate__bounceInDown "
+                    id="navbar-default">
+                    <ul
+                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#home"
+                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white gotham-medium"
+                                aria-current="page">
+                                Home</a>
+                        </li>
+                        <li>
+                            <a href="#skill"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent gotham-medium">
+
+                                Skills</a>
+                        </li>
+                        <li>
+                            <a href="#project"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent gotham-medium">
+                                Projects</a>
+                        </li>
+                        <li>
+                            <a href="#experience"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent gotham-medium">
+                                Experiences</a>
+                        </li>
+                        <li>
+                            <a href="#contact"
+                                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent gotham-medium">
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Home -->
+    <div class="bg-white dark:bg-gray-900 vh100" id="home">
+        <div class="three_bg" id="three_bg"></div>
+        <div class="h-full grid place-items-center" data-aos="fade-right">
+            <div>
+                <p
+                    class="dark: text-[#C6C6C6] text-3xl md:text-5xl  gotham-medium animate__animated animate__fadeInLeft">
+                    CHEUNG SUI
+                    WING
+                </p>
+                <p class="dark: text-[#C6C6C6] text-3xl mt-4 gotham-medium animate__animated animate__fadeInLeft">
+                    21027547D</p>
+                <div class="animate__animated animate__fadeInLeft">
+                    <p class="dark: text-white text-3xl md:text-7xl gotham-bold pt-5 mt-5 border-t-4 border-[#C6C6C6]"
+                        id="my_title">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- skill -->
+    <div class="bg-white dark:bg-gray-900 vh100auto py-5" id="skill">
+        <div class="h-full grid place-items-center">
+            <div>
+                <div class="container mx-auto my-auto h-full">
+                    <div class="flex justify-center pb-5">
+                        <div class="w-full md:w-1/2">
+                            <!-- First row content goes here -->
+                            <p class="dark: text-white gotham-bold text-4xl md:text-5xl text-center">My Skills</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap md:flex-no-wrap">
+                        <div
+                            class="w-full h-auto md:w-1/3 border-2 border-b-0 md:border-b-2 md:border-r-0 p-5 mx-5 md:mx-0">
+                            <!-- Second row, first column content goes here -->
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <i class="fa-solid fa-desktop dark:text-white text-center w-full text-3xl"></i>
+                                    </div>
+
+                                    <div class="w-2/3 h-auto self-center">
+                                        <p class="dark:text-white gotham-medium text-center">App Developer</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="container py-3">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;h1&gt;
+                                        </p>
+                                        <div class="h-4/5">
+                                            <div class="line"></div>
+                                        </div>
+
+
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;/h1&gt;
+                                        </p>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <p class="dark: text-white gotham-book text-center text-start pt-4">Experienced
+                                            in
+                                            creating front-end applications in React, HTML, CSS, and JavaScript on both
+                                            Android/IOS/Windows platforms.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-full h-auto md:w-1/3 border-2 border-b-0 md:border-b-2 md:border-r-0 p-5 mx-5 md:mx-0">
+                            <!-- Second row, second column content goes here -->
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <i class="fa-solid fa-desktop dark:text-white text-center w-full text-3xl"></i>
+                                    </div>
+
+                                    <div class="w-2/3 h-auto self-center">
+                                        <p class="dark:text-white gotham-medium text-center ">Software Development</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="container py-3">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;h2&gt;
+                                        </p>
+                                        <div class="h-4/5">
+                                            <div class="line"></div>
+                                        </div>
+
+
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;/h2&gt;
+                                        </p>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <p class="dark: text-white gotham-book text-center text-start pt-4">Skilled in
+                                            both
+                                            functional and OOP: Python, Java, C#.<br>
+                                            Experience in AI, Deep Learning, Data-Mining and Block-Chain technology.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full h-auto md:w-1/3 border-2 p-5 mx-5 md:mx-0">
+                            <!-- Second row, third column content goes here -->
+                            <div class="container">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <i class="fa-solid fa-desktop dark:text-white text-center w-full text-3xl"></i>
+                                    </div>
+
+                                    <div class="w-2/3 h-auto self-center">
+                                        <p class="dark:text-white gotham-medium text-center">Full-Stack Dev</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="container py-3">
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;h2&gt;
+                                        </p>
+                                        <div class="h-4/5">
+                                            <div class="line"></div>
+                                        </div>
+
+
+                                        <p class="dark:text-gray-500 gotham-book text-[0.8rem] text-center">
+                                            &lt;/h2&gt;
+                                        </p>
+                                    </div>
+                                    <div class="w-2/3">
+                                        <p class="dark: text-white gotham-book text-center text-start pt-4">Not only
+                                            Frontend, I
+                                            also experienced in developing backend using Node.js, Express.js and Python
+                                            Flask,
+                                            with MySQL or MongoDB.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- project -->
+
+    <!-- experience -->
+
+    <!-- contact -->
+
+
+    <!-- JS -->
+    <!-- Flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    <!-- typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- three.js -->
+    <script src="js/three.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CUS -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
