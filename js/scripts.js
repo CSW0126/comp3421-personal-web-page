@@ -1,3 +1,4 @@
+//title typing effect
 const my_title_init = () =>{
     var my_title = document.getElementById('my_title');
 
@@ -19,10 +20,45 @@ const my_title_init = () =>{
     .start();
 }
 
-const init = () =>{
-    my_title_init();
+//check visible
+const isElementInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+//nav css control
+const nav_css_control = () =>{
+    const navLi = document.querySelectorAll('nav ul li a');
+    const sections = document.querySelectorAll('section');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            let sectionTop = section.offsetTop;
+            if (scrollY >= sectionTop - 65) {
+                current = section.getAttribute('id');
+            }
+        });
+        navLi.forEach(li => {
+            li.classList.replace("text-white", "text-gray-400")
+            li.classList.replace("dark:text-white", 'dark:text-gray-400')
+            document.querySelector('nav ul li a[href*= ' + current + ']').classList.replace("text-gray-400", "text-white")
+            document.querySelector('nav ul li a[href*= ' + current + ']').classList.replace("dark:text-gray-400", "dark:text-white")
+        });
+    });
+
 }
 
+//init
+const init = () =>{
+    my_title_init();
+    nav_css_control();
+}
 
 
 // let scene, camera , renderer, starGeo, stars;

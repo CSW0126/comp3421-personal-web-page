@@ -77,7 +77,7 @@ html {
 
 @media (min-width: 768px) {
     .vh100auto {
-        height: 92.6vh;
+        height: 100vh;
     }
 }
 
