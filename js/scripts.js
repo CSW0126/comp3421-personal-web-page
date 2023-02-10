@@ -20,17 +20,6 @@ const my_title_init = () =>{
     .start();
 }
 
-//check visible
-const isElementInViewport = (el) => {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-
 //nav css control
 const nav_css_control = () =>{
     const navLi = document.querySelectorAll('nav ul li a');
@@ -58,6 +47,7 @@ const nav_css_control = () =>{
 const init = () =>{
     my_title_init();
     nav_css_control();
+    AOS.init();
 }
 
 
@@ -99,4 +89,3 @@ const init = () =>{
 // };
 
 init();
-AOS.init();
