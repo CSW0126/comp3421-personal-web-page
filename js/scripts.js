@@ -43,12 +43,65 @@ const nav_css_control = () =>{
 
 }
 
+//btn onclick
+document.getElementById("github_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126", "_blank");
+};
+document.getElementById("linkedIn_btn").onclick = function() {
+    window.open(
+        "https://www.linkedin.com/in/sui-wing-cheung-36293b241/", "_blank"
+    )
+};
+document.getElementById("tg_btn").onclick = function() {
+    window.open(
+        "https://t.me/wing0126","_blank"
+    )
+};
+
+document.getElementById("unity_btn").onclick = function() {
+    window.open(
+        "https://www.youtube.com/watch?v=A6s3nRVm89k&ab_channel=ArthasKeW","_blank"
+    )
+};
+
+document.getElementById("gameMaker_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/GameMaker_Project","_blank"
+    )
+};
+
+document.getElementById("NFT_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/COMP3334_GroupProject","_blank"
+    )
+};
+
+document.getElementById("Monopoly_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/SE_Monopoly","_blank"
+    )
+};
+
+document.getElementById("diet_app_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/yummyFYP","_blank"
+    )
+};
+
+document.getElementById("fyp_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/capstone-project","_blank"
+    )
+};
+
 //init
 const init = () =>{
     my_title_init();
     nav_css_control();
     AOS.init();
 }
+
 
 
 // let scene, camera , renderer, starGeo, stars;

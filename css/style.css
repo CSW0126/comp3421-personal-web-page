@@ -68,12 +68,25 @@ html {
     top: 0;
 }
 
-.three_bg {
-    position: absolute;
-    top:0;
-    left: 0;
+/* .three_bg {
+    display: block;
+} */
+
+#toast-success {
+    visibility: hidden; /* Hidden by default. Visible on click */
+  }
+  
+#toast-success.show {
+    visibility: visible; /* Show the snackbar */
 }
 
+#toast-danger {
+    visibility: hidden; /* Hidden by default. Visible on click */
+  }
+  
+#toast-danger.show {
+    visibility: visible; /* Show the snackbar */
+}
 
 @media (min-width: 768px) {
     .vh100auto {
