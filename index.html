@@ -37,7 +37,7 @@
 <body class="dark" id="body">
 
     <!-- Navbar -->
-    <div class="fixed w-screen z-10">
+    <div class="fixed w-screen z-50">
         <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a class="flex items-center">
@@ -100,10 +100,10 @@
     <!-- Home -->
     <section class="bg-white dark: bg-[#060606] vh100" id="home">
         <div class="absolute w-full" id="three_bg"></div>
-        <div class="h-full grid place-items-center" data-aos="fade-right">
-            <div>
+        <div class="h-full flex flex-wrap justify-center content-center pt-10" data-aos="fade-right">
+            <div class="self-center">
                 <p
-                    class="dark: text-[#C6C6C6] text-3xl md:text-5xl  gotham-medium animate__animated animate__fadeInLeft">
+                    class="dark: text-[#C6C6C6] text-3xl md:text-5xl gotham-medium animate__animated animate__fadeInLeft">
                     CHEUNG SUI
                     WING
                 </p>
@@ -114,6 +114,9 @@
                         id="my_title">
                     </p>
                 </div>
+            </div>
+            <div class="w-[10rem] h-[15rem] md:w-auto md:h-auto">
+                <img src="./assets/fake.png" class="bg-cover" />
             </div>
         </div>
 
@@ -127,7 +130,15 @@
                     <div class="flex justify-center pb-5">
                         <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="500">
                             <!-- First row content goes here -->
-                            <p class="dark: text-white gotham-bold text-4xl md:text-5xl text-center">My Skills</p>
+                            <p class="dark: text-white gotham-bold text-4xl md:text-5xl text-center my-5">My Skills</p>
+                            <p
+                                class="px-5 gotham-medium text-center text-gray-500 dark: text-[#C6C6C6] sm:text-xl text-justify">
+                                I am an experienced software professional with expertise in app development, full stack
+                                development, and software engineering. I have a deep understanding of various
+                                programming languages and technologies, and possess a strong track record of creating
+                                innovative and user-friendly software solutions. My skills and experience make me a
+                                valuable asset to any software development team.
+                            </p>
                         </div>
                     </div>
                     <div class="flex flex-wrap md:flex-no-wrap">
@@ -687,9 +698,9 @@
 
     </section>
     <!-- contact -->
-    <section class="bg-white dark: bg-[#010101] vh100auto py-5" id="contact">
-        <div class="h-full grid place-items-center">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md z-50">
+    <section class="bg-white dark: bg-[#010101] py-5" id="contact">
+        <div class="h-full grid text-center">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md z-10">
                 <h2 class="mb-4 text-4xl tracking-tight text-center text-gray-900 dark:text-white gotham-bold">Contact
                     Me
                 </h2>
@@ -698,8 +709,8 @@
                     project you need help with?
                     Send me an email or contact me via instant message!
                 </p>
-                <div class="pb-8 grid justify-center">
-                    <div>
+                <div class="pb-8 grid place-content-center">
+                    <div class="">
                         <button type="button" id="github_btn"
                             class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
                             <svg class="w-4 h-4 mr-2 -ml-1" aria-hidden="true" focusable="false" data-prefix="fab"
