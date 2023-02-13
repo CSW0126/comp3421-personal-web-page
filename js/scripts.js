@@ -95,6 +95,12 @@ document.getElementById("fyp_btn").onclick = function() {
     )
 };
 
+document.getElementById("dc_btn").onclick = function() {
+    window.open(
+        "https://discordapp.com/users/183194862735196160","_blank"
+    )
+};
+
 //init
 const init = () =>{
     my_title_init();
