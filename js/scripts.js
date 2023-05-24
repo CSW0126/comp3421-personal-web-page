@@ -67,13 +67,13 @@ document.getElementById("unity_btn").onclick = function() {
 
 document.getElementById("gameMaker_btn").onclick = function() {
     window.open(
-        "https://github.com/CSW0126/GameMaker_Project","_blank"
+        "https://github.com/CSW0126/2D-Game-Project","_blank"
     )
 };
 
 document.getElementById("NFT_btn").onclick = function() {
     window.open(
-        "https://github.com/CSW0126/COMP3334_GroupProject","_blank"
+        "https://github.com/CSW0126/COMP3334_GroupProject-NFT-Marketplace","_blank"
     )
 };
 
@@ -85,13 +85,13 @@ document.getElementById("Monopoly_btn").onclick = function() {
 
 document.getElementById("diet_app_btn").onclick = function() {
     window.open(
-        "https://github.com/CSW0126/yummyFYP","_blank"
+        "https://github.com/CSW0126/Mobile-Diet-App-comp-4342-project","_blank"
     )
 };
 
 document.getElementById("fyp_btn").onclick = function() {
     window.open(
-        "https://github.com/CSW0126/capstone-project","_blank"
+        "https://github.com/CSW0126/Simulation-Game-for-Algorithm-Trading","_blank"
     )
 };
 
