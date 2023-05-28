@@ -50,7 +50,7 @@ document.getElementById("github_btn").onclick = function() {
 };
 document.getElementById("linkedIn_btn").onclick = function() {
     window.open(
-        "https://www.linkedin.com/in/sui-wing-cheung-36293b241/", "_blank"
+        "https://www.linkedin.com/in/donald-cheung-36293b241/", "_blank"
     )
 };
 document.getElementById("tg_btn").onclick = function() {
@@ -95,11 +95,11 @@ document.getElementById("fyp_btn").onclick = function() {
     )
 };
 
-// document.getElementById("dc_btn").onclick = function() {
-//     window.open(
-//         "https://discordapp.com/users/183194862735196160","_blank"
-//     )
-// };
+document.getElementById("auction_house_btn").onclick = function() {
+    window.open(
+        "https://github.com/CSW0126/auction_house_project","_blank"
+    )
+};
 
 //init
 const init = () =>{
